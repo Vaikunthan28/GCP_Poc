@@ -1,4 +1,8 @@
 resources:
+- name: My-storage
+  type: storage.v1.bucket
+  properties:
+    storageClass: STANDARD
 - name: the-first-vm
   type: compute.v1.instance
   properties:
